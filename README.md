@@ -24,22 +24,22 @@ LoginSimulator/
 │
 ├── app/ 
 │ ├── init.py
-│ ├── auth.py           # Handles login, account creation, password hashing
-│ ├── config.py         # Configuration & environment loading
-│ ├── db.py             # Handles database connection and queries
-│ ├── email.utils.py    # Manages email sending and formatting utilities
-│ ├── main.py           # Entry point of the application; controls program flow
-│ ├── state.py          # Stores and manages global user session state
-│ ├── ui.py             # UI and CLI styling (colors, layouts)
-│ ├── user_actions.py   # Actions available after user logs in
-│ └── validators.py     # Contains functions to validate user input (e.g., email, password)
+│ ├── auth.py                   # Handles login, account creation, password hashing
+│ ├── config.py                 # Configuration & environment loading
+│ ├── db.py                     # Handles database connection and queries
+│ ├── email.utils.py            # Manages email sending and formatting utilities
+│ ├── main.py                   # Entry point of the application; controls program flow
+│ ├── state.py                  # Stores and manages global user session state
+│ ├── ui.py                     # UI and CLI styling (colors, layouts)
+│ ├── user_actions.py           # Actions available after user logs in
+│ └── validators.py             # Contains functions to validate user input (e.g., email, password)
 │
 ├── database/ 
-│ └── schema.sql        # SQL schema or initialization files
+│ └── LoginInformation.sql      # Database table setup
 │
-├── .env.example        # Example of nvironment variables
-├── requirements.txt    # Python dependencies
-└── README.md           # Project overview
+├── .env.example                # Example of nvironment variables
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project overview
 ```
 
 ---
