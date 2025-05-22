@@ -64,7 +64,7 @@ LoginSimulator/
     ```ini
     # Database info
     DB_SERVER=YOUR_SERVER\SQLEXPRESS
-    DB_DATABASE=pcp_LoginInformationDB
+    DB_DATABASE=your-database-name
 
     # Email (used for authentication)
     SENDER_EMAIL=your_email@gmail.com
