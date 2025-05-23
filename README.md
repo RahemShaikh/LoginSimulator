@@ -44,6 +44,23 @@ LoginSimulator/
 
 ---
 
+## Requirements
+
+Before running this project, make sure you have the following:
+
+- **Python 3.10+**
+- **Access to a SQL Server**  
+  You'll need a running SQL Server instance. Update the `.env` file with your server and database details.
+
+- **A sending email address**  
+  The application requires an email account to send authentication emails (e.g., for 2FA or password recovery). This should be configured in the `.env` file with:
+  ```ini
+  SENDER_EMAIL=youremail@example.com
+  SENDER_PASSWORD=your_app_password
+  ```
+  
+---
+
 ## Setup Instructions
 
 1. **Clone the repo:**
