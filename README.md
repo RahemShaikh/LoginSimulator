@@ -98,7 +98,7 @@ Before running this project, make sure you have the following:
 
 ## Notes
 
-- Passwords are securely hashed using SHA-256.
+- Passwords are securely hashed using bcrypt.
 - Email authentication requires enabling "App Passwords" for Gmail
 - `.env` file should be kept secret and not committed to version control.
 
